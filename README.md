@@ -126,7 +126,7 @@ kalshi-prediction-market-analysis/
 │       ├── kalshi_spx_6999_vs_underlying.png
 │       ├── kalshi_fed_dec25_h0_leadlag.png
 │       ├── kalshi_fed_dec25_h0_vs_underlying.png
-│       └── ml_model_comparison.png
+│       └── ml_models.png
 ├── report/
 │   └── Portfolio_AI_AS10_Report.pdf             # Technical report (LaTeX)
 ├── requirements.txt                             # Python dependencies
@@ -243,7 +243,7 @@ jupyter notebook
 
 ### Machine Learning Performance
 
-![ML Comparison](outputs/figures/ml_model_comparison.png)
+![ML Comparison](outputs/figures/ml_models.png)
 *Wide variance in accuracy and ROC-AUC across models indicates weak predictive power and overfitting, confirming limited exploitable patterns.*
 
 ---
