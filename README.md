@@ -5,7 +5,7 @@
 **Platform:** Kalshi (CFTC-regulated prediction market exchange)
 
 [![View Notebook](https://img.shields.io/badge/View-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/enagy827/prediction-market-dynamics/blob/main/prediction_market_dynamics.ipynb)
-[![PDF Report](https://img.shields.io/badge/Download-PDF%20Report-red?logo=adobe)](report/AS10_Kalshi_Summary.pdf)
+[![PDF Report](https://img.shields.io/badge/Download-PDF%20Report-red?logo=adobe)](report/Portfolio_AI_AS10_Report.pdf)
 
 ---
 
