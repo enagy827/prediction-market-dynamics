@@ -4,7 +4,7 @@
 **Date:** December 2024  
 **Platform:** Kalshi (CFTC-regulated prediction market exchange)
 
-[![View Notebook](https://img.shields.io/badge/View-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/enagy827/kalshi-prediction-market-analysis/blob/main/prediction_market_dynamics.ipynb)
+[![View Notebook](https://img.shields.io/badge/View-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/enagy827/prediction-market-dynamics/blob/main/prediction_market_dynamics.ipynb)
 [![PDF Report](https://img.shields.io/badge/Download-PDF%20Report-red?logo=adobe)](report/AS10_Kalshi_Summary.pdf)
 
 ---
