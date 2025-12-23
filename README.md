@@ -121,11 +121,14 @@ kalshi-prediction-market-analysis/
 ├── outputs/
 │   └── figures/                                 # Lead-lag charts and ML comparisons
 │       ├── kalshi_btc_129k_leadlag.png
+│       ├── kalshi_btc_129k_vs_underlying.png
 │       ├── kalshi_spx_6999_leadlag.png
+│       ├── kalshi_spx_6999_vs_underlying.png
 │       ├── kalshi_fed_dec25_h0_leadlag.png
+│       ├── kalshi_fed_dec25_h0_vs_underlying.png
 │       └── ml_model_comparison.png
 ├── report/
-│   └── AS10_Kalshi_Summary.pdf                  # Technical report (LaTeX)
+│   └── Portfolio_AI_AS10_Report.pdf             # Technical report (LaTeX)
 ├── requirements.txt                             # Python dependencies
 └── README.md                                    # This file
 ```
@@ -138,7 +141,7 @@ kalshi-prediction-market-analysis/
 
 ### View Online (No Installation Required)
 
-**[View the interactive notebook on nbviewer →](https://nbviewer.org/github/enagy827/kalshi-prediction-market-analysis/blob/main/prediction_market_dynamics.ipynb)**
+**[View the interactive notebook on nbviewer →](https://nbviewer.org/github/enagy827/prediction-market-dynamics/blob/main/prediction_market_dynamics.ipynb)**
 
 ### Run Locally
 
@@ -270,7 +273,7 @@ jupyter notebook
 
 For detailed methodology, statistical analysis, comprehensive discussion, and complete results, see the full technical report:
 
-**[Download PDF Report →](report/AS10_Kalshi_Summary.pdf)**
+**[Download PDF Report →](report/Portfolio_AI_AS10_Report.pdf)**
 
 The report includes:
 - Comprehensive methodology section
@@ -313,8 +316,7 @@ The report includes:
 For questions, collaboration opportunities, or to discuss this research:
 
 - **Portfolio**: [Your website]
-- **LinkedIn**: [Your LinkedIn]
-- **Email**: [Your email]
+- **LinkedIn**: [[Emma Nagy](https://www.linkedin.com/in/emma-nagy/)]
 
 ---
 
