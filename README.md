@@ -4,7 +4,7 @@
 **Date:** December 2024  
 **Platform:** Kalshi (CFTC-regulated prediction market exchange)
 
-[![View Notebook](https://img.shields.io/badge/View-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/enagy827/kalshi-prediction-market-analysis/blob/main/AS10_Kalshi_Prediction_Market_Analysis.ipynb)
+[![View Notebook](https://img.shields.io/badge/View-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/enagy827/kalshi-prediction-market-analysis/blob/main/prediction_market_dynamics.ipynb)
 [![PDF Report](https://img.shields.io/badge/Download-PDF%20Report-red?logo=adobe)](report/AS10_Kalshi_Summary.pdf)
 
 ---
@@ -111,25 +111,26 @@ This project evaluates the efficiency and predictability of prediction markets b
 
 ```
 kalshi-prediction-market-analysis/
-├── AS10_Kalshi_Prediction_Market_Analysis.ipynb    # Complete analysis notebook
+├── prediction_market_dynamics.ipynb             # Complete analysis notebook
 ├── data/
-│   ├── kalshi_btc_129k.csv                         # Bitcoin contract data
-│   ├── kalshi_spx_6999.csv                         # S&P 500 contract data
-│   ├── kalshi_fed_dec25_h0.csv                     # Fed contract data
-│   ├── btc_prices.csv                              # Bitcoin underlying prices
-│   ├── spx_prices.csv                              # S&P 500 underlying prices
-│   └── cme_fedwatch.csv                            # CME FedWatch probabilities
+│   ├── kalshi_contracts/                        # Kalshi contract price data
+│   │   ├── btc_129k_candles.csv                # Bitcoin ≥$129K contract
+│   │   ├── spx_6999_candles.csv                # S&P 500 ≥6999 contract
+│   │   └── fed_dec25_h0_candles.csv            # Fed Dec 2025 contract
+│   └── cme_fedwatch.csv                         # CME FedWatch probabilities
 ├── outputs/
-│   └── figures/                                     # Lead-lag charts and ML comparisons
+│   └── figures/                                 # Lead-lag charts and ML comparisons
 │       ├── kalshi_btc_129k_leadlag.png
 │       ├── kalshi_spx_6999_leadlag.png
 │       ├── kalshi_fed_dec25_h0_leadlag.png
 │       └── ml_model_comparison.png
 ├── report/
-│   └── AS10_Kalshi_Summary.pdf                     # Technical report (LaTeX)
-├── requirements.txt                                 # Python dependencies
-└── README.md                                        # This file
+│   └── AS10_Kalshi_Summary.pdf                  # Technical report (LaTeX)
+├── requirements.txt                             # Python dependencies
+└── README.md                                    # This file
 ```
+
+**Note**: Bitcoin and S&P 500 underlying prices are fetched programmatically in the notebook using Yahoo Finance API (`yfinance` library), so no separate price files are needed.
 
 ---
 
@@ -137,7 +138,7 @@ kalshi-prediction-market-analysis/
 
 ### View Online (No Installation Required)
 
-**[View the interactive notebook on nbviewer →](https://nbviewer.org/github/enagy827/kalshi-prediction-market-analysis/blob/main/AS10_Kalshi_Prediction_Market_Analysis.ipynb)**
+**[View the interactive notebook on nbviewer →](https://nbviewer.org/github/enagy827/kalshi-prediction-market-analysis/blob/main/prediction_market_dynamics.ipynb)**
 
 ### Run Locally
 
@@ -158,7 +159,7 @@ pip install -r requirements.txt
 # Launch Jupyter
 jupyter notebook
 
-# Open AS10_Kalshi_Prediction_Market_Analysis.ipynb and run all cells
+# Open prediction_market_dynamics.ipynb and run all cells
 ```
 
 #### Option 2: Download ZIP
@@ -169,7 +170,7 @@ jupyter notebook
 4. Open terminal/command prompt and navigate to the extracted folder
 5. Install dependencies: `pip install -r requirements.txt`
 6. Launch Jupyter: `jupyter notebook`
-7. Open `AS10_Kalshi_Prediction_Market_Analysis.ipynb` and run the cells
+7. Open `prediction_market_dynamics.ipynb` and run the cells
 
 ---
 
